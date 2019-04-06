@@ -1,0 +1,179 @@
+.image img {
+    width: 100%;
+    height: 20em;
+    position: absolute;
+}
+
+.image {
+    position: relative;
+}
+
+body {
+    background-color: #efefef;
+    height: 100%;
+}
+
+.inner {
+    position: absolute;
+    text-align: center;
+    height: 20em;
+    width: 100%;
+    transform: translateY(20%);
+    z-index: 1;
+}
+
+.inner h1 {
+    font-size: 4em;
+    padding: 0 0.5em 0.25em 0.5em;
+    border-bottom: solid 2px #ffffff;
+    font-weight: 200;
+    font-family: "Pacifico", cursive;
+    margin: 0px 30%;
+    color: white;
+}
+
+.inner p {
+    text-transform: uppercase;
+    letter-spacing: 0.325rem;
+    font-weight: 400;
+    font-size: 0.8em;
+    padding: 0 1.25em;
+    color: #444;
+    margin-top: 40px;
+}
+
+.inner span a {
+    color: #444;
+    transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    text-decoration: none;
+    border-bottom: dotted 1px;
+}
+
+.inner span a:hover {
+    color: #EF6480 !important;
+}
+
+.main {
+    width: auto;
+}
+
+#head {
+    height: 25em;
+}
+
+.main-class {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.cardss {
+    background-color: white;
+    padding: 100px 340px;
+    text-align: center;
+    width: auto;
+}
+
+.cardss h2 {
+    font-size: 1.75em;
+    color: #444444;
+}
+
+.cardss p {
+    color: gray;
+    padding: 1em 0;
+}
+
+.cardss i {
+    font-size: 50px;
+    color: gray;
+    padding-bottom: 1em
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid black;
+    transition: all 0.2s ease-in;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+button:hover {
+    border-color: #EF6480;
+    color: #EF6480;
+}
+
+.person img {
+    width: 538px;
+    height: 259px;
+}
+
+.person p {
+    padding: 50px 0;
+}
+
+.person {
+    text-align: center;
+    margin: 36px 36px;
+    background-color: white;
+}
+
+.person-text {
+    text-align: center;
+    padding: 0 70px;
+    padding-bottom: 60px;
+}
+
+.col-12 {
+    padding: 100px 450px;
+    text-align: center;
+    width: auto;
+}
+
+.col-12 h1 {
+    font-size: 1.75em;
+    color: #444444;
+    letter-spacing: 2px
+}
+
+.col-12 p {
+    color: gray;
+    padding: 1em 0;
+}
+
+.col-12 i {
+    font-size: 50px;
+    color: gray;
+    padding-bottom: 1em
+}
+
+.line::before {
+    content: '';
+    display: inline-block;
+    width: 6em;
+    height: 2px;
+    background-color: #666666;
+    margin-bottom: 4em;
+}
+
+.line {
+    margin-top: -100px;
+}
+
+ .col-12 i{
+    transition: all 0.4s;
+    font-size: 20px;
+}
+
+i:hover {
+    color: #EF6480;
+}
+.col-12 span a {
+    color: #444;
+    transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    text-decoration: none;
+    border-bottom: dotted 1px;
+}
+
+.col-12 span a:hover {
+    color: #EF6480 !important;
+}
